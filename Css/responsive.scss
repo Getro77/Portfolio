@@ -1,0 +1,630 @@
+@media screen and (max-width: 1440px) {
+  .project-left .box {
+    grid-column: 4 / span 5;
+    grid-row: 1 / span 3;
+    width: 100%;
+  }
+  
+  .project-left .project-info {
+    grid-column: 8 / span 3;
+    grid-row: 2 / span 1;
+  }
+  
+  .project-right .box {
+    grid-column: 6 / span 5;
+    grid-row: 1 / span 3;
+    width: 100%;
+  }
+  
+  .project-right .project-info {
+    grid-column: 4 / span 3;
+    grid-row: 2 / span 1;
+  }
+  .about-section,.skills-section{
+    .title{
+      font-size: 10em;
+    }
+    .text{
+      font-size: 2.4em;
+      line-height: 1.8em;
+    }
+  }
+  .contact-section{
+    input,textarea{
+      font-size: 2rem;
+    }
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section-projet .disney-img{
+    width: auto;
+    display: grid; 
+    grid-template-columns: 1fr; 
+    grid-template-rows: 1fr; 
+    gap: 10px 10px; 
+    grid-template-areas: 
+      "Img-1"
+      "Img-2"
+      "Img-3"
+      "Img-4"
+      "Img-5"; 
+    align-content: start; 
+    align-items: stretch; 
+  
+  .Img-1 { grid-area: Img-1; }
+  .Img-2 { grid-area: Img-2; }
+  .Img-3 { grid-area: Img-3; }
+  .Img-4 { grid-area: Img-4; }
+  .Img-5 { grid-area: Img-5; }
+    img{
+      width: 90%;
+      margin: 2vh auto;
+    }
+    }
+    .section-projet .feater-img{
+      width: auto;
+      display: grid; 
+      grid-template-columns: 1fr; 
+      grid-template-rows: 1fr; 
+      gap: 10px 10px; 
+      grid-template-areas: 
+        "Img-1"
+        "Img-2"
+        "Img-3"
+        "Img-4"
+        "Img-5"
+        "Img-6"; 
+      align-content: start; 
+      align-items: stretch; 
+    
+    .Img-1 { grid-area: Img-1; }
+    .Img-2 { grid-area: Img-2; }
+    .Img-3 { grid-area: Img-3; }
+    .Img-4 { grid-area: Img-4; }
+    .Img-5 { grid-area: Img-5; }
+    .Img-5 { grid-area: Img-6; }
+      img{
+        width: 80%;
+        margin: 2vh auto;
+      }
+      }
+      .section-projet .nuit-img{
+        width: auto;
+        display: grid; 
+        grid-template-columns: 1fr; 
+        grid-template-rows: 1fr; 
+        gap: 10px 10px; 
+        grid-template-areas: 
+          "Img-1"
+          "Img-2"
+          "Img-3"
+          "Img-4"
+          "Img-5"
+          "Img-6"; 
+        align-content: start; 
+        align-items: stretch; 
+      
+      .Img-1 { grid-area: Img-1; }
+      .Img-2 { grid-area: Img-2; }
+      .Img-3 { grid-area: Img-3; }
+      .Img-4 { grid-area: Img-4; }
+      .Img-5 { grid-area: Img-5; }
+      .Img-5 { grid-area: Img-6; }
+        img{
+          width: 80%;
+          margin: 2vh auto;
+        }
+        }
+  .button-page,.button-page-grid{
+    width: 100vw;
+    a {
+      width: 50vw;
+      h3{
+      width:50vw;
+      }
+      hr{
+      bottom: 0;
+      top: 1vh;
+    }
+    }
+  }
+  .accueil {
+    font-size: 70%;
+    .bigText {
+      margin-top: 5vh;
+    }
+  }
+  .section-projet {
+    .info-projet .bloc{
+    margin: 10vh auto 10vh auto;
+    }
+    #title-projet{
+      text-align: center;
+    }
+    .img-projet {
+      img {
+        width: 90vw;
+      }
+    }
+    width: 100vw;
+    margin: 10vh auto;
+    .desc-projet {
+      width: 100vw;
+      margin: auto;
+      p {
+        padding: 0;
+        margin: auto;
+        width: 60vw;
+      }
+    }
+  }
+  .side-bar {
+    a .cursor{
+      width: 8vw;
+      height: 8vw;
+      margin: 0;
+      .close.icon{
+        margin: 35% auto;
+        width: 2.5vw;
+        height: 2vw;
+        &:before{
+          width: 2.5vw;
+          height:1px;
+        }
+        &:after{
+          width: 2.5vw;
+          height: 1px;
+        }
+      }
+    }
+    position: relative;
+    grid-template-columns: 1fr 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    #name-text {
+      h2 {
+        font-weight: lighter;
+      }
+      writing-mode: horizontal-tb;
+      transform: rotate(0);
+      &:nth-of-type(1) {
+        display: none;
+      }
+    }
+  }
+  .project-left .box {
+    grid-column: 2 / span 8;
+    grid-row: 1 / span 3;
+    width: 100%;
+  }
+  
+  .project-left .project-info {
+    grid-column: 9 / span 3;
+    grid-row: 2 / span 1;
+  }
+  
+  .project-right .box {
+    grid-column: 4 / span 8;
+    grid-row: 1 / span 3;
+    width: 100%;
+  }
+  
+  .project-right .project-info {
+    grid-column: 2 / span 3;
+    grid-row: 2 / span 1;
+  }
+  .about-section,.skills-section{
+    .title{
+      font-size: 5em;
+    }
+    .text{
+      font-size: 1.4em;
+      line-height: 2em;
+    }
+  }
+  .contact-section{
+    .title{
+      font-size: 5rem;
+    }
+    input,textarea{
+      font-size: 1.8vw;
+    }
+  }
+  .footer_contact, .footer_mention{
+    padding: 9rem 10rem 1.25rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .pointer{
+    display: none;
+  }
+
+  .about-section{
+    width: 90vw;
+    .title{
+      font-size: 10em;
+    }
+    .text{
+      font-size: 2.2em;
+      line-height: 2em;
+    }
+  }
+  .skills-section {
+    width: 100vw;
+    .title{
+      font-size: 10em;
+    }
+    .text{
+      font-size: 2.2em;
+      line-height: 2em;
+    }
+  }
+  .accueil {
+    font-size: 55%;
+    .bigText {
+      margin-top: 10vh;
+    }
+  }
+  .section-projet {
+    .img-projet{
+      margin-top: 10vh;
+    }
+    #title-projet {
+      font-size: 5em;
+    }
+  }
+  .project-section{
+    padding:0 0;
+  }
+  .project-left .box {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 3;
+    width: 100%;
+  }
+  
+  .project-left .project-info {
+    grid-column: 1 / span 12;
+    grid-row: 4 / span 1;
+  }
+  
+  .project-right .box {
+    grid-column: 1 / span 12;
+    grid-row: 1 / span 3;
+    width: 100%;
+  }
+  
+  .project-right .project-info {
+    grid-column: 1 / span 21;
+    grid-row: 4 / span 1;
+  }
+  .section-projet {
+    width: 100vw;
+    margin: 10vh auto;
+    .desc-projet {
+      width: 80vw;
+      margin: auto;
+      p {
+        padding: 0;
+        font-size: 1.4em;
+        margin: auto;
+        width: 100%;
+      }
+    }
+  }
+  .contact-section{
+    .contact-form{
+      justify-content: center;
+      width: 40vw;
+      margin: auto;
+      input,textarea{
+        width: 40vw;
+        font-size: 2.5vw;
+      }
+    }
+    .title{
+      width: 40vw;
+      font-size: 4vw;
+      font-weight: 600;
+      letter-spacing: 8px;
+      text-align: left;
+    }
+    .social-links{
+      a{
+        width: 8vw;
+        img{
+          width: 10vw;
+          height: auto;
+        }
+      } 
+    }
+  }
+  .side-bar-about {
+    a .cursor {
+      width: 6vw;
+      height: 6vw;
+      .close.icon {
+        margin: 2vw auto;
+        width: 2vw;
+        height: 35%;
+        &:before {
+          width: 2vw;
+        }
+        &:after {
+          width: 2vw;
+        }
+      }
+    }
+  }
+
+  .mentionsPage{
+    width: 60vw;
+    margin-left: 16vw;
+    .mentionsOvh p{
+      padding: 2vh 0 2vh;
+    }
+    .mentionsAbout, .mentionsPerso, .mentionsOvh{
+      h2{
+        font-size: 3vw;
+        font-weight: 700;
+      }
+      p{
+        font-size: 2vw;
+        font-weight: 400;
+        line-height: 3vh;
+      }
+    }
+  }
+  #titreMentions{
+    padding: 2vh 0 0;
+    text-align: justify;
+    padding-left: 16vw;
+    font-size: 3vw;
+  }
+
+
+
+}
+@media screen and (max-width: 700px) {
+  .section-projet {
+    #title-projet {
+      font-size: 3em;
+    }
+    .desc-projet {
+      width: 100%;
+      p {
+        width: 80%;
+        font-size: 1.2em;
+      }
+    }
+  }
+  .about-section{
+    width: 90vw;
+    .title{
+      font-size: 4em;
+    }
+    .text{
+      width: 80vw;
+      font-size: 1.4em;
+      line-height: 1.8em;
+    }
+  }
+  .mentionsOvh p{
+    padding: 1vh 0 1vh;
+  }
+  .footer_contact, .footer_mention{
+    padding: 9rem 2rem 1.25rem;
+    h3{
+       font-size: 4vw; 
+    }
+    a{
+      font-size: 3vw;
+    }
+  }
+  
+}
+@media screen and (max-width: 425px) {
+  .project-section{
+    padding:10vh 0;
+  }
+  .accueil {
+    width: 100%;
+    height: 85vh;
+    .bigText {
+      margin: 10vh auto 15vh;
+      font-size: 9em;
+    }
+    .scroll{
+      bottom: 100px;
+    }
+  }
+  .section-projet {
+    .info-projet {
+      width: 100vw;
+      .bloc {
+        padding: 5vh 0 10vh;
+        position: relative;
+        margin: auto;
+        h3 {
+          font-size: 1.5em;
+          font-weight: lighter;
+        }
+        h4 {
+          font-family: "Big Shoulders Display", cursive;
+          font-size: 1.2em;
+          letter-spacing: 4px;
+          font-weight: 400;
+          margin-top: 5vh;
+        }
+      }
+    }
+    .desc-projet {
+      width: 90vw;
+      margin: auto;
+      p {
+        font-size: 1.2em;
+        font-weight: normal;
+        margin: auto;
+        width: 100%;
+      }
+    }
+    #title-projet {
+      font-size: 2em;
+    }
+  }
+  .about-section{
+    width: 100vw;
+    margin: 10vh 0 10vh 10vw;
+    .title{
+      font-size: 6em;
+    }
+    .text{
+      font-size: 2em;
+      line-height: 2em;
+    }
+  }
+  .skills-section {
+    width: 100vw;
+    .title{
+      text-align: right;
+      width: 80vw;
+      margin: auto;
+      font-size: 6em;
+    }
+    .text{
+      text-align: right;
+      width: 80vw;
+      margin: auto;
+      font-size: 2em;
+      line-height: 2em;
+    }
+  }
+  .contact-section{
+    .title{
+      margin: 0 0 0 10vw;
+      font-size: 5rem;
+    }
+    .contact-form{
+      input,textarea{
+        font-size: 1.8rem;
+      }
+    }
+  }
+  .contact-section .form-control{
+    width: 80vw;
+  }
+  .contact-section .contact-form{
+    width: 80vw;
+  }
+  .contact-section .contact-form input, .contact-section .contact-form textarea{
+    width: 80vw;
+  }
+  .side-bar-about {
+    a .cursor {
+      width: 8vw;
+      height: 8vw;
+      background-color: rgb(26, 26, 26);
+      border: 1px solid white;
+      .close.icon {
+        margin: 3vw auto;
+        width: 3.5vw;
+        height: 20%;
+        &:before {
+          content: "";
+          position: absolute;
+          top: 1vw;
+          width: 3.5vw;
+          height: 1px;
+          background-color: rgb(255, 255, 255);
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          top: 1vw;
+          width: 3.5vw;
+          height: 1px;
+          background-color: rgb(255, 255, 255);
+          -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+        }
+      }
+    }
+  }
+  .mentionsPage{
+    width: 60vw;
+    margin-left: 16vw;
+    .mentionsAbout p:nth-of-type(1){
+      padding: 3vh 0 4vh;
+    }
+    .mentionsOvh p{
+      padding: 1vh 0 1vh;
+    }
+    .mentionsAbout, .mentionsPerso, .mentionsOvh{
+      h2{
+        font-size: 3vw;
+        font-weight: 700;
+      }
+      p{
+        font-size: 2.6vw;
+        font-weight: 400;
+        line-height: 3vh;
+      }
+    }
+  }
+
+}
+@media screen and (max-width: 320px) {
+  .nav-links a {
+    font-size: 1.2em;
+  }
+  .accueil {
+    height: 85vh;
+    .bigText {
+      font-size: 8em;
+      margin-top: 10vh;
+    }
+  }
+  .section-projet {
+    width: 100vw;
+    margin: 10vh auto;
+    .desc-projet {
+      width: 80vw;
+      margin: auto;
+      p {
+        font-size: 1em;
+        margin: auto;
+        width: 100%;
+      }
+    }
+  }
+  .about-section,.skills-section{
+    width: 100vw;
+    .title{
+      width: 100%;
+      font-size: 4em;
+      margin-left: 5vw;
+    }
+    .text{
+      margin-left: 5vw;
+      width: 90vw;
+      font-size: 1.3em;
+      line-height: 1.6em;
+    }
+  }
+  #titreMentions{
+    font-size: 5vw;
+  }
+  .mentionsPage{
+    .mentionsAbout, .mentionsPerso, .mentionsOvh{
+      h2{
+        font-size: 5vw;
+      }
+      p{
+        font-size: 3vw;
+        font-weight: 400;
+        line-height: 3vh;
+      }
+    }
+  }
+}
+ 
