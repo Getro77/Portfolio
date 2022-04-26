@@ -257,17 +257,17 @@
     width: 2.5vw;
     height: 1px;
   }
-  .side-bar #name-text {
+  .side-bar #name-text, .side-bar #name-work {
     -webkit-writing-mode: horizontal-tb;
         -ms-writing-mode: lr-tb;
             writing-mode: horizontal-tb;
     -webkit-transform: rotate(0);
             transform: rotate(0);
   }
-  .side-bar #name-text h2 {
+  .side-bar #name-text h2, .side-bar #name-work h2 {
     font-weight: lighter;
   }
-  .side-bar #name-text:nth-of-type(1) {
+  .side-bar #name-text:nth-of-type(1), .side-bar #name-work:nth-of-type(1) {
     display: none;
   }
   .project-left .box {

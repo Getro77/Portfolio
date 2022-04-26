@@ -442,7 +442,7 @@ body,main {
   grid-auto-columns: 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
   grid-template-rows: 1fr 8fr 1fr;
-  #name-text {
+  #name-text, #name-work {
     h2 {
       font-weight: 300;
     }
@@ -520,7 +520,7 @@ body,main {
   grid-template-columns: 1fr 1fr 1fr;
   -ms-grid-rows: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  #name-text {
+  #name-text ,#name-work{
     h2 {
       font-weight: 300;
     }
